@@ -1,7 +1,8 @@
+import GameBoard from "./Pages/GameBoard";
+
 function App() {
   return (
-    <div className="App">
-    </div>
+    <GameBoard />
   );
 }
 
