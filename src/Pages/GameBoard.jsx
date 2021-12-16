@@ -1,7 +1,7 @@
 import React from "react";
 import Player from "../components/Player";
-import "./GameBoard.css";
 import OptionsContainer from "../components/OptionsContainer.jsx";
+import "./GameBoard.css";
 
 class GameBoard extends React.Component {
   constructor() {
