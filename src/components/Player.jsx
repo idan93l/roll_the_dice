@@ -1,13 +1,15 @@
 import React from "react";
-import "./player.css";
+import "./Player.css";
 
 class Player extends React.Component {
   render = () => {
     return (
       <div className="Player">
-        <h1>{this.props.name}</h1>
-        <h1>current score: {this.props.initialScore}</h1>
-        <h1>score: {this.props.totalScore}</h1>
+        <div className="container">
+          <h1>{this.props.name}</h1>
+          <h1>score: {this.props.score}</h1>
+        </div>
+        <h1>current score: {this.props.currentScore}</h1>
       </div>
     );
   };
