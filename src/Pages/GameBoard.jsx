@@ -119,9 +119,9 @@ class GameBoard extends React.Component {
 
   render = () => {
     // console.log(this.state.die1);
-    console.log(`player1 ${this.state.player1Score}`);
-    console.log(`player2 ${this.state.player2Score}`);
-    console.log(`winPoints ${this.state.pointsToWin}`);
+    // console.log(`player1 ${this.state.player1Score}`);
+    // console.log(`player2 ${this.state.player2Score}`);
+    // console.log(`winPoints ${this.state.pointsToWin}`);
     return (
       <div className="GameBoard">
         <Player
